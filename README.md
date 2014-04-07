@@ -1,1 +1,1 @@
-Some of my RSpec practice with FizzBuzz game
+Some RSpec practice files
