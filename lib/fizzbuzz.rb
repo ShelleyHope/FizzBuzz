@@ -12,5 +12,3 @@ def fizzbuzz(number)
 	return "Buzz" if is_divisible_by_5(number)
 	number
 end
-
-
