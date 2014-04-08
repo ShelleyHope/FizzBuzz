@@ -13,17 +13,18 @@ describe "FizzBuzz" do
 	it 'knows that 1 is not divisible by 5' do
 		expect(is_divisible_by_5(1)).to be_false
 	end
-	it 'returns "Fizz if is_divisible_by_3' do
-		expect(fizzbuzz(3)).to eq "Fizz"
-	end
-	it 'returns "Buzz if is_divisible_by_5' do
-		expect(fizzbuzz(5)).to eq "Buzz"
-	end
-	it 'returns "FizzBuzz if is_divisible_by_3 and is_divisible_by_5' do
-		expect(fizzbuzz(15)).to eq "FizzBuzz"
-	end
-	it 'returns 1 if number is 1' do
+	it 'returns 1 for 1' do
 		expect(fizzbuzz(1)).to eq 1
 	end
+	it 'returns "Fizz" for 3' do
+		expect(fizzbuzz(3)).to eq "Fizz"
+	end
+	it 'returns "Buzz" for 5' do
+		expect(fizzbuzz(5)).to eq "Buzz"
+	end
+	it 'returns "FizzBuzz" for 15' do
+		expect(fizzbuzz(15)).to eq "FizzBuzz"
+	end
 	
+
 end
