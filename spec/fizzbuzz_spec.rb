@@ -26,7 +26,4 @@ describe "FizzBuzz" do
 		expect(fizzbuzz(15)).to eq "FizzBuzz"
 	end
 	
-
-
-	
 end
